@@ -1,4 +1,2 @@
 # bin
 linux scripts
-
-
