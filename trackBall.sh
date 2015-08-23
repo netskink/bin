@@ -19,3 +19,15 @@
 # set acceleration to be 1.2
 # and threshold to be 1
 xset m 1 1
+
+# list all devices
+xinput list
+
+# id 10 should be trackball
+xinput --list-props 10
+
+# set acceleration
+xinput --set-prop 10 267 3.0 
+#verify it sticks
+xinput --list-props 10
+
