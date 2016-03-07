@@ -18,6 +18,7 @@
 # My LCD
 #xrandr --output eDP1 --auto --output DP1 --auto --left-of eDP1
 # samsung 
+#xrandr --output LVDS-0 --auto --output VGA-0 --auto --left-of LVDS-0
 xrandr --output LVDS-0 --auto --output VGA-0 --auto --left-of LVDS-0
 #killall fbpanel
 #fbpanel &
